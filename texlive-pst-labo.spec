@@ -61,6 +61,7 @@ source code, making it an easy read.
 %doc %{_texmfdistdir}/doc/generic/pst-labo/pstlabo8-tab1-DE.tex
 %doc %{_texmfdistdir}/doc/generic/pst-labo/pstlabo8-tab1-EN.tex
 %doc %{_texmfdistdir}/doc/generic/pst-labo/pstlabo8-tab1-FR.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -71,3 +72,5 @@ source code, making it an easy read.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
