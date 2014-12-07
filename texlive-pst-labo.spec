@@ -6,7 +6,7 @@
 # catalog-version 2.03
 Name:		texlive-pst-labo
 Version:	2.03
-Release:	8
+Release:	9
 Summary:	Draw objects for Chemistry laboratories
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-labo
