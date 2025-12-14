@@ -1,5 +1,5 @@
 Name:		texlive-pst-labo
-Version:	67147
+Version:	74874
 Release:	1
 Summary:	Draw objects for Chemistry laboratories
 Group:		Publishing
